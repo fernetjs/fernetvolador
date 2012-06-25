@@ -1,0 +1,42 @@
+
+.bottle-wrap {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	z-index: 1000;
+}
+
+.legend {
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+	right: -150px;
+	border: dashed 2px #fff;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #525252;
+	color: #fff;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+.fernet-capita {
+	background-image: url('../img/fernet-capita.png');
+	background-position: 80px 80px;
+	
+	width: 80px;
+	height: 80px;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+}
+
+.fernet-capita.x {
+	background-position: 160px 80px;
+}
+
+
+
+
